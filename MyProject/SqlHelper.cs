@@ -22,7 +22,7 @@ namespace MyProject
     static void Open()
         {
             //如果当前连接对象为打开则关闭连接
-            if (con.State == ConnectionState.Closed)
+            if (con.State == ConnectionState.Closed) 
                 con.Open();
         }
         /// <summary>
